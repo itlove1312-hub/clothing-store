@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Fashion Market</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+
+    <body>
+
+        <header>
+
+            <h1>👕 Fashion Market</h1>
+
+            <input id="search" placeholder="Search clothes">
+
+        <div>
+            🛒 <span id="cartCount">0</span>
+            ❤️ <span id="favCount">0</span>
+        </div>
+
+        </header>
+
+        <main>
+
+        <!-- ORDERS -->
+
+        <div class="orders">
+            <h2>Orders</h2>
+            <div id="ordersList"></div>
+        </div>
+
+
+        <!-- PRODUCTS -->
+
+        <div class="products" id="products"></div>
+
+
+        <!-- CART -->
+
+        <div class="cart">
+
+        <h2>Cart</h2>
+
+        <div id="cartItems"></div>
+
+        <h3>Total: $<span id="total">0</span></h3>
+
+        <button onclick="checkout()">Checkout</button>
+
+        </div>
+
+        </main>
+    </body>
+</html>
